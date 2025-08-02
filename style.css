@@ -1,0 +1,191 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+/*set*/
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.search-form {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.img_form {
+  width: 100%;
+  height: 50vh;
+
+  position: relative;
+}
+
+.day-img,
+.night-img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.night-img {
+  display: none;
+}
+
+.city-name,
+.temperutre {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  font-size: 24px;
+}
+
+.temperutre {
+  color: block;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.temperutre {
+  top: 35%;
+  left: 60%;
+}
+
+.city-name {
+  top: 35%;
+  left: 10%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black; /* Sets a 1px solid black border */
+}

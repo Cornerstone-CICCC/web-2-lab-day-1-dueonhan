@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City/Weather Search</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- YOUR CODE HERE -->
-  
-  <script src="./app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City/Weather Search</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- YOUR CODE HERE -->
+    <div class="header">
+      <form method="get" class="search-form">
+        <input type="text" name="q" />
+        <input type="submit" />
+      </form>
+
+      <div class="img_form">
+        <img src="./images/day.jpg" alt="" class="day-img" />
+        <img src="./images/night.jpg" alt="" class="night-img" />
+
+        <h3 class="city-name"></h3>
+        <h3 class="temperutre"></h3>
+      </div>
+
+      <table>
+        <tr>
+          <td>Country</td>
+          <td class="country"></td>
+        </tr>
+        <tr>
+          <td>TimeZone</td>
+          <td class="timezone"></td>
+        </tr>
+        <tr>
+          <td>Population</td>
+          <td class="population"></td>
+        </tr>
+        <tr>
+          <td>Tomorrow's Forecast</td>
+          <td class="forecast">
+            <p class="Low"></p>
+            <p class="high"></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
